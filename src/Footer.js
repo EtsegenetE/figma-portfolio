@@ -7,6 +7,7 @@
  import stack from "./images/footer/stack.png";
  import twitter from "./images/footer/twitter.png";
  import React, { useState } from "react";
+ import emailjs from "emailjs-com";
  
  function Footer() {
 
@@ -26,8 +27,33 @@
 
     const handleSubmit =(e) => {
         e.preventDefault();
-        console.log("Form Data submitted", formData);
-        setFormData({name: "", email: "", message: ""})
+        const {name, email, message} = formData;
+
+        emailjs 
+            .send(
+                "service_icc6jnq",
+                "template_d2b4wn3",
+                {
+                    name,
+                    email,
+                    message,
+                },
+                "56bWBusgahRBQnhQU"
+            )
+
+            .then(
+                (response) => {
+                    console.log("Email sent successfully", response);
+                    alert("your message has been sent!")
+                    setFormData({name: "", email: "", message: ""})
+                },
+           
+
+                (error) => {
+                    console.log("Error sending email", error);
+                    alert("there is an issue. please try again")
+                }
+            );
     }
 
     return (
@@ -63,8 +89,7 @@
                      placeholder="Message*" 
                      onChange={handleChange}
                      required></textarea>
-                    <button 
-                    type="submit">Get in touch</button>
+                    <button type="submit">Get in touch</button>
                 </form>
                 <p>cg@gmailjob.com</p>
                 <div className="footer-img">
