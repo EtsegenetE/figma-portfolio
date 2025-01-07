@@ -68,14 +68,14 @@
                 </form>
                 <p>cg@gmailjob.com</p>
                 <div className="footer-img">
-                    <img src={Github} alt="img1" width="27px" height="27px" />
-                    <img src={twitter} alt="img1" width="27px" height="27px" />
-                    <img src={LinkedIN} alt="img1" width="27px" height="27px" />
-                    <img src={PIS} alt="img1" width="27px" height="27px" />
-                    <img src={M} alt="img1" width="27px" height="27px" />
-                    <img src={stack} alt="img1" width="27px" height="27px" />
-                    <img src={Facebook} alt="img1" width="27px" height="27px" />
-                    <img src={Instagram} alt="img1" width="27px" height="27px" />
+                    <a href="https://github.com/EtsegenetE"> <img src={Github} alt="img1" width="27px" height="27px" /></a> 
+                    <a><img src={twitter} alt="img1" width="27px" height="27px" /></a>  
+                    <a> <img src={LinkedIN} alt="img1" width="27px" height="27px" /></a> 
+                    <a><img src={PIS} alt="img1" width="27px" height="27px" /></a>
+                    <a> <img src={M} alt="img1" width="27px" height="27px" /></a> 
+                    <a> <img src={stack} alt="img1" width="27px" height="27px" /></a> 
+                    <a><img src={Facebook} alt="img1" width="27px" height="27px" /></a> 
+                    <a href="https://www.instagram.com/etsegenetelias/" > <img src={Instagram} alt="img1" width="27px" height="27px" /></a> 
                 </div>
                 <p>&copy; 2020 Micrverse</p>
             </div>

@@ -42,14 +42,14 @@ function Header() {
                     <div className="G-14">
                         <p>My works in social networks</p>
                         <div className="G-14-img">
-                            <img src={Union3} alt="img1" width="27px" height="27px" />
-                            <img src={Shape3} alt="img2" width="27px" height="27px" />
-                            <img src={Shape4} alt="img3" width="27px" height="27px" />
-                            <img src={Subtract2} alt="img4" width="27px" height="27px" />
-                            <img src={Subtract3} alt="img5" width="27px" height="27px" />
-                            <img src={Union4} alt="img6" width="27px" height="27px" />
-                            <img src={Subtract4} alt="img7" width="27px" height="27px" />
-                            <img src={Subtract5} alt="img8" width="27px" height="27px" />
+                            <a href="https://github.com/EtsegenetE"><img src={Union3} alt="img1" width="27px" height="27px" href="https://github.com/EtsegenetE" /></a>
+                            <a><img src={Shape3} alt="img2" width="27px" height="27px" href="" /></a> 
+                            <a><img src={Shape4} alt="img3" width="27px" height="27px" /></a>  
+                            <a><img src={Subtract2} alt="img4" width="27px" height="27px" /></a> 
+                            <a> <img src={Subtract3} alt="img5" width="27px" height="27px" /></a> 
+                            <a><img src={Union4} alt="img6" width="27px" height="27px" /></a> 
+                            <a><img src={Subtract4} alt="img7" width="27px" height="27px" /></a> 
+                            <a href="https://www.instagram.com/etsegenetelias/"><img src={Subtract5} alt="img8" width="27px" height="27px" /></a> 
                         </div>
                     </div>
                 </div>

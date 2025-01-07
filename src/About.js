@@ -4,7 +4,7 @@ function About() {
             <div className="about-me">
                 <h3>About me</h3>
                 <p>In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
-                <button>Get my resume</button>
+                 <a href="https://enhancv.com/resume-examples/front-end-developer/#re-resume-preview" ><button>Get my resume</button></a> 
             </div>
             <div className="boxes">
                 <div className="branch">
