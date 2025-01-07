@@ -68,7 +68,7 @@
                 </form>
                 <p>cg@gmailjob.com</p>
                 <div className="footer-img">
-                    <a href="https://github.com/EtsegenetE"> <img src={Github} alt="img1" width="27px" height="27px" /></a> 
+                    <a href="https://github.com/EtsegenetE"> <img src={Github} alt="img1" width="27px" height="27px" /> </a> 
                     <a><img src={twitter} alt="img1" width="27px" height="27px" /></a>  
                     <a> <img src={LinkedIN} alt="img1" width="27px" height="27px" /></a> 
                     <a><img src={PIS} alt="img1" width="27px" height="27px" /></a>
