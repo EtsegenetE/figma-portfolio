@@ -91,7 +91,7 @@
                      required></textarea>
                     <button type="submit">Get in touch</button>
                 </form>
-                <p>cg@gmailjob.com</p>
+                <p>etsegenetelias13@gmail.com</p>
                 <div className="footer-img">
                     <a href="https://github.com/EtsegenetE"> <img src={Github} alt="img1" width="27px" height="27px" /> </a> 
                     <a><img src={twitter} alt="img1" width="27px" height="27px" /></a>  
@@ -102,7 +102,7 @@
                     <a><img src={Facebook} alt="img1" width="27px" height="27px" /></a> 
                     <a href="https://www.instagram.com/etsegenetelias/" > <img src={Instagram} alt="img1" width="27px" height="27px" /></a> 
                 </div>
-                <p>&copy; 2020 Micrverse</p>
+                <p>&copy; 2025</p>
             </div>
         </footer>
     );

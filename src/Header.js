@@ -7,31 +7,14 @@ import Subtract4 from "./images/Subtract4.png";
 import Subtract5 from "./images/Subtract5.png";
 import Union3 from "./images/Union3.png";
 import Union4 from "./images/Union4.png";
+import Menu from "./Menu";
  
 function Header() {
     return (
         <container>
             <div  className="container">
-                <div className="left-header">
-                    <h3>CP</h3>
-                    <nav className="nav">
-                        <ul>
-                            <li className="mobile">
-                                <a href="#">Intro</a>
-                            </li>
-                            <li>
-                                <a href="#">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-
+                
+                 <Menu />
                 <div className="right-header">
                     <h1>Etsegenet Elias</h1>
                     <h3>Front-End Developer</h3>
@@ -42,14 +25,70 @@ function Header() {
                     <div className="G-14">
                         <p>My works in social networks</p>
                         <div className="G-14-img">
-                            <a href="https://github.com/EtsegenetE"><img src={Union3} alt="img1" width="27px" height="27px" href="https://github.com/EtsegenetE" /></a>
-                            <a><img src={Shape3} alt="img2" width="27px" height="27px" href="" /></a> 
-                            <a><img src={Shape4} alt="img3" width="27px" height="27px" /></a>  
-                            <a><img src={Subtract2} alt="img4" width="27px" height="27px" /></a> 
-                            <a> <img src={Subtract3} alt="img5" width="27px" height="27px" /></a> 
-                            <a><img src={Union4} alt="img6" width="27px" height="27px" /></a> 
-                            <a><img src={Subtract4} alt="img7" width="27px" height="27px" /></a> 
-                            <a href="https://www.instagram.com/etsegenetelias/"><img src={Subtract5} alt="img8" width="27px" height="27px" /></a> 
+                            <a href="https://github.com/EtsegenetE">
+                                 <img 
+                                     src={Union3} 
+                                     alt="img1" 
+                                     width="27px" 
+                                     height="27px"  
+                                     />
+                            </a>
+                            <a href="#" >
+                                <img 
+                                     src={Shape3} 
+                                     alt="img2" 
+                                     width="27px" 
+                                     height="27px" 
+                                />
+                            </a> 
+                            <a href="#" >
+                                <img 
+                                  src={Shape4} 
+                                   alt="img3" 
+                                   width="27px" 
+                                   height="27px" 
+                                />
+                            </a>  
+                            <a href="#" >
+                                <img 
+                                   src={Subtract2} 
+                                   alt="img4" 
+                                   width="27px" 
+                                   height="27px" 
+                                />
+                            </a> 
+                            <a href="#" > 
+                                <img 
+                                   src={Subtract3} 
+                                   alt="img5" 
+                                   width="27px" 
+                                   height="27px" 
+                                />
+                                </a> 
+                            <a href="#" >
+                                <img 
+                                   src={Union4} 
+                                   alt="img6" 
+                                   width="27px"
+                                    height="27px" 
+                                />
+                            </a> 
+                            <a href="#" >
+                                <img 
+                                   src={Subtract4} 
+                                   alt="img7" 
+                                   width="27px" 
+                                   height="27px" 
+                                />
+                            </a> 
+                            <a href="https://www.instagram.com/etsegenetelias/">
+                                <img 
+                                    src={Subtract5} 
+                                    alt="img8" 
+                                    width="27px" 
+                                    height="27px" 
+                                />
+                            </a> 
                         </div>
                     </div>
                 </div>

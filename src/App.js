@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from "./Header";
 import Main from './Main';
@@ -8,10 +8,18 @@ import Footer from './Footer';
 function App() {
   return (
     <>
-    <Header />
-    <Main />
-    <About />
-    <Footer />
+    <section id='intro-section'>
+        <Header />
+    </section>
+    <section id='portfolio-section'>
+        <Main />
+    </section>
+    <section id='about-section'>
+       <About />
+    </section>
+    <section id='contact-section'>
+      <Footer />
+    </section>
     </>
   )
 }

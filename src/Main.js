@@ -4,7 +4,7 @@ import Huzi from "./images/pics/Huzi.png";
 import soap from "./images/pics/soap.png";
 import traviso from "./images/pics/traviso.png";
 import weather from "./images/pics/weather.png";
-import finger from "./images/pics/finger.png";
+
 
 function Main () {
     return (
@@ -27,8 +27,7 @@ function Main () {
                   <div className="soap">
                         <h4 className="over-lay">Soap Soap</h4>
                         <img src={soap} alt="img2" width="406px" height="280px"/>
-                        <img src={finger} alt="finger" width="50px" height="70px"  className="finger" /> 
-                        <div className="mobile-list-desktop">
+                        <div className="mobile-list">
                                 <ul>
                                     <li><a href="#">HTML/CSS</a></li>
                                     <li><a href="#">Ruby on Rails</a></li>
