@@ -94,14 +94,15 @@
                 <p>etsegenetelias13@gmail.com</p>
                 <div className="footer-img">
                     <a href="https://github.com/EtsegenetE"> <img src={Github} alt="img1" width="27px" height="27px" /> </a> 
-                    <a><img src={twitter} alt="img1" width="27px" height="27px" /></a>  
-                    <a> <img src={LinkedIN} alt="img1" width="27px" height="27px" /></a> 
-                    <a><img src={PIS} alt="img1" width="27px" height="27px" /></a>
-                    <a> <img src={M} alt="img1" width="27px" height="27px" /></a> 
-                    <a> <img src={stack} alt="img1" width="27px" height="27px" /></a> 
-                    <a><img src={Facebook} alt="img1" width="27px" height="27px" /></a> 
+                    <a  href="#twitter"><img src={twitter} alt="img1" width="27px" height="27px" /></a>  
+                    <a href="#linkdein"> <img src={LinkedIN} alt="img1" width="27px" height="27px" /></a> 
+                    <a href="#pis"><img src={PIS} alt="img1" width="27px" height="27px" /></a>
+                    <a href="#m"> <img src={M} alt="img1" width="27px" height="27px" /></a> 
+                    <a href="#stack"> <img src={stack} alt="img1" width="27px" height="27px" /></a> 
+                    <a href="fb"><img src={Facebook} alt="img1" width="27px" height="27px" /></a> 
                     <a href="https://www.instagram.com/etsegenetelias/" > <img src={Instagram} alt="img1" width="27px" height="27px" /></a> 
                 </div>
+                <hr className="divider" />
                 <p>&copy; 2025</p>
             </div>
         </footer>

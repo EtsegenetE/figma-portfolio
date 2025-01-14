@@ -33,7 +33,7 @@ function Header() {
                                      height="27px"  
                                      />
                             </a>
-                            <a href="#" >
+                            <a href="#shape" >
                                 <img 
                                      src={Shape3} 
                                      alt="img2" 
@@ -41,7 +41,7 @@ function Header() {
                                      height="27px" 
                                 />
                             </a> 
-                            <a href="#" >
+                            <a href="#pic" >
                                 <img 
                                   src={Shape4} 
                                    alt="img3" 
@@ -49,7 +49,7 @@ function Header() {
                                    height="27px" 
                                 />
                             </a>  
-                            <a href="#" >
+                            <a href="#image" >
                                 <img 
                                    src={Subtract2} 
                                    alt="img4" 
@@ -57,7 +57,7 @@ function Header() {
                                    height="27px" 
                                 />
                             </a> 
-                            <a href="#" > 
+                            <a href="#subtract" > 
                                 <img 
                                    src={Subtract3} 
                                    alt="img5" 
@@ -65,7 +65,7 @@ function Header() {
                                    height="27px" 
                                 />
                                 </a> 
-                            <a href="#" >
+                            <a href="#union" >
                                 <img 
                                    src={Union4} 
                                    alt="img6" 
@@ -73,7 +73,7 @@ function Header() {
                                     height="27px" 
                                 />
                             </a> 
-                            <a href="#" >
+                            <a href="#sub" >
                                 <img 
                                    src={Subtract4} 
                                    alt="img7" 

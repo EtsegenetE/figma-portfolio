@@ -17,9 +17,9 @@ function Main () {
                         <img src={Huzi} alt="img1" width="406px" height="280px"/>
                         <div className="mobile-list">
                                 <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">Ruby on Rails</a></li>
-                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#HTML/CSS">HTML/CSS</a></li>
+                                     <li><a href="#Ruby">Ruby on Rails</a></li>
+                                    <li><a href="#Javascript">JavaScript</a></li>
                                 </ul>
                                 <button>see the project</button>
                         </div>
@@ -29,9 +29,9 @@ function Main () {
                         <img src={soap} alt="img2" width="406px" height="280px"/>
                         <div className="mobile-list">
                                 <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">Ruby on Rails</a></li>
-                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#HTML/CSS">HTML/CSS</a></li>
+                                    <li><a href="#Ruby">Ruby on Rails</a></li>
+                                    <li><a href="#Javascript">JavaScript</a></li>
                                 </ul>
                                 <button>see the project</button>
                         </div>
@@ -40,9 +40,9 @@ function Main () {
                         <img src={traviso} alt="img3" width="406px" height="280px"/>
                         <div className="mobile-list">
                                 <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">Ruby on Rails</a></li>
-                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#HTML/CSS">HTML/CSS</a></li>
+                                    <li><a href="#Ruby">Ruby on Rails</a></li>
+                                    <li><a href="#Javascript">JavaScript</a></li>
                                 </ul>
                                 <button>see the project</button>
                         </div>
@@ -51,9 +51,9 @@ function Main () {
                         <img src={carsell} alt="img4" width="406px" height="280px"/>
                         <div className="mobile-list">
                                 <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">Ruby on Rails</a></li>
-                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#HTML/CSS">HTML/CSS</a></li>
+                                    <li><a href="#Ruby">Ruby on Rails</a></li>
+                                    <li><a href="#Javascript">JavaScript</a></li>
                                 </ul>
                                 <button>see the project</button>
                         </div>
@@ -62,9 +62,9 @@ function Main () {
                         <img src={audition} alt="img5" width="406px" height="280px"/>
                         <div className="mobile-list">
                                 <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">Ruby on Rails</a></li>
-                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#HTML/CSS">HTML/CSS</a></li>
+                                    <li><a href="#Ruby">Ruby on Rails</a></li>
+                                    <li><a href="#Javascript">JavaScript</a></li>
                                 </ul>
                                 <button>see the project</button>
                         </div>
@@ -74,9 +74,9 @@ function Main () {
                         <img src={weather} alt="img6" width="406px" height="280px"/>
                         <div className="mobile-list">
                                 <ul>
-                                    <li><a href="#">HTML/CSS</a></li>
-                                    <li><a href="#">Ruby on Rails</a></li>
-                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#HTML/CSS">HTML/CSS</a></li>
+                                    <li><a href="#Ruby">Ruby on Rails</a></li>
+                                    <li><a href="#Javascript">JavaScript</a></li>
                                 </ul>
                                 <button>see the project</button>
                         </div>

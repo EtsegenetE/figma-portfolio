@@ -6,6 +6,8 @@ function Menu () {
    useEffect(() =>{
 
       const sections = document.querySelectorAll("section");
+      console.log("sections found:", sections);
+
       const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {

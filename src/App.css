@@ -19,7 +19,6 @@ body{
   transition:  transition 0.5s ease;
 }
 
-
 .left-header > h3 {
   background-color: #4456FB;
   width: 86px;
@@ -113,6 +112,7 @@ body{
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
+  padding-right: 10px;
 }
 
 .G-14 {
@@ -288,7 +288,7 @@ body{
 .containers{
   background: linear-gradient(to right, #4052F0,#7F38DA);
   width: 851px;
-  height: 650px;
+  height: 680px;
   margin-left: 500px;
   border-top-left-radius: 100px;
 }
@@ -346,10 +346,19 @@ form > button {
   flex-direction: row;
   gap: 10px;
   justify-content: flex-end;
-  border-bottom: solid 1px #6877FF;
   padding-bottom: 30px;
   margin-right: 100px;
+  box-sizing: border-box;
 }
+
+.divider {
+  border-bottom: solid 1px #6877FF;
+  border-top: none;
+  width: 100%;
+  margin: 20px auto;
+ 
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -502,12 +511,12 @@ form > button {
     margin-bottom: 10px;
   }
 
-  .mobile-list-desktop{
+  .mobile-list{
     margin-top: 10px;
     position: relative;
   }
 
-  .mobile-list-desktop > ul{
+  .mobile-list > ul{
     margin-left: -30px;
     display: flex;
     flex-direction: row;
@@ -516,7 +525,7 @@ form > button {
     width: 315px;
   }
 
-  .mobile-list-desktop a{
+  .mobile-list a{
     background-color: #4F5461;
     padding: 5px;
     border-radius: 40px;
@@ -525,7 +534,7 @@ form > button {
     color: #FFFFFF;
   }
 
-  .mobile-list-desktop button{
+  .mobile-list button{
     background-color: #4456FB;
     color: #fff;
     width: 315px;
@@ -540,10 +549,6 @@ form > button {
    font-size: 16px;
   }
 
-  .finger{
-    display: none;
-  }
-
   .main > h3 {
     font-size: 28px;
     line-height: 29.48px;
@@ -551,9 +556,15 @@ form > button {
   }
 
   .about-me{
-    width: 310px;
+    width: 300px;
     margin-left: 50px;
   }
+
+  .about-me > p {
+    width: auto;
+    max-width: 100%;
+  }
+
   .boxes{
     display: flex;
     flex-direction: column;
@@ -564,7 +575,7 @@ form > button {
 
   .containers {
     width: 375px;
-    height: 671px;
+    height: 700px;
     margin-left: 48px;
     border-top-left-radius: 0;
   }
@@ -602,11 +613,12 @@ form > button {
   form > .mm{
     margin-top: 30px;
     margin-left: 10px;
-    width: 328px;
+    width: 300px;
     height: 185px;
     border-radius: 14px;
     padding-left: 20px;
     padding-top: 0px;
+    padding-right: 30px;
   }
 
   form > button {
